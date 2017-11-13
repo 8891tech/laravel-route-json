@@ -1,5 +1,5 @@
 <?php
-namespace 8891\RouteJson;
+namespace T8891\RouteJson;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,5 +1,5 @@
 <?php
-namespace 8891\RouteJson\Console;
+namespace T8891\RouteJson\Console;
 
 use Illuminate\Console\Command;
 

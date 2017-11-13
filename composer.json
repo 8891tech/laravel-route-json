@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "8891\\RouteJson\\": "src/"
+            "T8891\\RouteJson\\": "src/"
         }
     }
 }
