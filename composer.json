@@ -3,6 +3,7 @@
     "description": "Export laravel registered routes to specify json file",
     "type": "laravel-command",
     "require": {
+        "php": ">=5.4",
         "illuminate/support": "^5.0"
     },
     "license": "MIT",
