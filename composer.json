@@ -1,0 +1,21 @@
+{
+    "name": "8891/laravel-route-json",
+    "description": "Export laravel registered routes to specify json file",
+    "type": "laravel-command",
+    "require": {
+        "illuminate/support": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liming",
+            "email": "treerootboy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "8891\\RouteJson\\": "src/"
+        }
+    }
+}
