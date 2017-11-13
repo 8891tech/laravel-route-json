@@ -24,8 +24,11 @@ class RouteJsonCommand extends Command
 
         $routeJson = array();
         foreach($routes as $route) {
+            $path = method_exists($route, 'uri') ? $route->uri() : $route['uri'];
+            if ($path[0]!='/') $path = '/'.$path;
+            $path = preg_replace('/{[^}]+}/', '[^/]+', $path);
             $routeJson[] = array(
-                'path' => method_exists($route, 'uri') ? $route->uri() : $route['uri']
+                'path' => $path
             );
         }
 
