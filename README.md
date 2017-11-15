@@ -42,3 +42,14 @@ $app->register('T8891\RouteJson\RouteJsonServiceProvider');
 php artisan route:json
 ```
 then check the public/route.json
+
+## Extra Route Match
+```config/routejson.php```
+```php
+<?php
+return [
+    "extra" => [
+        "/assets"
+    ]
+];
+```
