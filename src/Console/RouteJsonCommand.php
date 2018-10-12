@@ -17,7 +17,7 @@ class RouteJsonCommand extends Command
 
     }
 
-    public function fire()
+    public function handle()
     {
         $output_path = $this->option('output') ?: base_path().'/public';
         $routes = $this->isLumen() ? $this->app->getRoutes() : \Route::getRoutes();
