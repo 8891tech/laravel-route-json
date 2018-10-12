@@ -16,6 +16,11 @@ class RouteJsonCommand extends Command
         $this->addOption('output', 'o', InputOption::VALUE_OPTIONAL, 'Specify the json file save path');
 
     }
+    
+    public function fire()
+    {
+        $this->handle();
+    }
 
     public function handle()
     {
